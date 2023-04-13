@@ -23,10 +23,18 @@
       margin: 0 auto;
     }
   }
+
+  .row {
+    max-width: none;
+  }
 }
 .arc-airportis-page {
   width: 100%;
   padding-bottom: 120px;
+
+  .callout-box-container {
+    padding-top: 120px;
+  }
 }
 
 .arc-airportis-header {
@@ -37,7 +45,7 @@
 
 .arc-airportis-page > * .atd-jumbo {
   background-color: black;
-  padding-top: 25%;
+  padding-top: 325px;
 }
 
 .arc-iata-bar {
@@ -59,10 +67,6 @@
   width: 720px;
 }
 
-.secondary-container {
-  max-width: 1260px;
-}
-
 .airportis-overview-hr {
   margin-top: 120px;
   margin-bottom: 60px;
@@ -81,12 +85,6 @@
   padding-bottom: 60px;
 }
 
-.arc-airportis-page > * .secondary-container > * .col-lg-2 {
-  padding: 0px;
-  justify-content: center;
-  display: flex;
-}
-
 .access-item-hr {
   margin-bottom: 30px;
   border-bottom: 1px solid;
@@ -102,27 +100,24 @@ img.access-item-icon {
 
 .access-item-icon-outer {
   display: flex;
-  width: 215px;
-  padding-bottom: 25px;
+  align-items: center;
+  height: 90px;
 }
 
 .access-item-header {
   text-align: center;
   font-family: main.$arc-font-semibold;
   font-size: 18px;
-  color: black;
+  color: #000000;
   line-height: 20px;
-  width: 215px;
+  padding-top: 25px;
+  padding-bottom: 60px;
 }
 
 .airportis-bg {
-  background-image: url(https://www2.arccorp.com/globalassets/products--participation/airportis/airportis-plane-img.png) !important;
-  background-position: top center !important;
-  background-repeat: no-repeat !important;
-}
-
-.airportis-bg > .callout-container > .container {
-  padding-top: 15%;
+  padding-top: 400px;
+  background: #000000 url(https://www2.arccorp.com/globalassets/products--participation/airportis/airportis-plane-img.png) top center no-repeat;
+  background-size: contain;
 }
 
 .airportis-secondary-pt-header {
@@ -164,4 +159,10 @@ img.access-item-icon {
 
 .callout-box {
   border-radius: 20px;
+}
+
+.airportis-overview-item {
+  padding-top: 30px;
+  border-top: #2a2b2c 1px solid;
+  text-align: center;
 }
