@@ -29,19 +29,72 @@
     padding-bottom: 120px;
   }
 
+  .arc-airportis-header {
+    font-family: main.$arc-font-semibold;
+    font-size: 70px;
+    line-height: 70px;
+  }
+
+  .arc-airportis-page > * .atd-jumbo {
+    background-color: black;
+    padding-top: 25%;
+  }
+
   .arc-iata-bar {
+    margin: 60px auto 0px;
     background-color: #f7f5f5;
     border-radius: 10px;
+    display: flex;
+    align-items: baseline;
+  }
+
+  .arc-iata-bar-logo {
+    padding: 40px;
+  }
+
+  .arc-iata-bar-text {
+    font-size: 21px;
+    font-family: main.$arc-font-semibold;
+    color: #888;
+    width: 720px;
+  }
+
+  .airportis-overview-hr {
+    margin-top: 120px;
+    margin-bottom: 60px;
+    border-bottom: 1px solid;
+  }
+
+  .airportis-overview-body-header {
+    font-size: 50px;
+    padding-bottom: 60px;
+  }
+
+  .airportis-overview-secondary-header {
+    font-size: 22px;
+    font-family: main.$arc-font-bold;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .access-item-hr {
+    margin-bottom: 30px;
+    border-bottom: 1px solid;
   }
 
   img.access-item-icon {
     display: flex;
     margin-left: auto;
     margin-right: auto;
+    padding-bottom: 25px;
   }
 
   .access-item-header {
     text-align: center;
+    font-family: main.$arc-font-semibold;
+    font-size: 18px;
+    color: black;
+    line-height: 20px;
   }
 
   .callout-box {
