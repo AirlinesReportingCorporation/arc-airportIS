@@ -23,8 +23,10 @@ class App extends Component {
           contactUs="Contact Us"
           rightLink="https://www2.arccorp.com/support-training/product-sales-request?Product=AirportIS"
         />
-        <div className="">
+
           <ProductJumbo
+          className="airportis-jumbo"
+          
             backgroundImage="https://www2.arccorp.com/globalassets/products--participation/airportis/airportis-jumbo.png"
             title={
               <>
@@ -44,19 +46,19 @@ class App extends Component {
             ctaLink="#overview"
             width="100%"
           />
-        </div>
+
 
         <div className="container">
           <div className="arc-iata-bar">
-            <div className="row">
-              <div className="col">
+            <div className="row align-items-center">
+              <div className="col-lg-4">
                 <img
                   className="arc-iata-bar-logo"
                   src="https://www2.arccorp.com/globalassets/products--participation/airportis/airportis-arc-iata.png"
                   alt="arc-iata logo"
                 />
               </div>
-              <div className="col my-auto">
+              <div className="col-lg-8">
                 <div className="arc-iata-bar-text">
                   ARC and IATA have partnered to offer AirportIS so our
                   customers have the tools needed to devise an effective air
