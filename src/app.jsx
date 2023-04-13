@@ -50,7 +50,8 @@ class App extends Component {
           <div className="arc-iata-bar">
             <div className="row">
               <div className="col">
-                <img className="arc-iata-bar-logo"
+                <img
+                  className="arc-iata-bar-logo"
                   src="https://www2.arccorp.com/globalassets/products--participation/airportis/airportis-arc-iata.png"
                   alt="arc-iata logo"
                 />
@@ -72,7 +73,7 @@ class App extends Component {
               <div className="row">
                 <div className="col-lg-12" style={{ textAlign: "center" }}>
                   <div className="airportis-overview-body-header">
-                  AirportIS
+                    AirportIS
                   </div>
                 </div>{" "}
                 <div className="col-lg-12">
@@ -82,11 +83,11 @@ class App extends Component {
                   />
                 </div>
               </div>
-              <div className="container">
+              <div className="secondary-container">
                 <div className="row">
                   <div className="col-lg-12" style={{ textAlign: "center" }}>
                     <div className="airportis-overview-secondary-header">
-                    Use the platform to access:
+                      Use the platform to access:
                     </div>
                   </div>
                 </div>
@@ -109,39 +110,49 @@ class App extends Component {
                 </div>
                 <div className="row">
                   <div className="col-lg-2 mx-auto">
-                    <img
-                      className="access-item-icon"
-                      src="https://www2.arccorp.com/globalassets/products--participation/airportis/airportis-overview-icon-1.png"
-                      alt=""
-                    />
+                    <div className="access-item-icon-outer">
+                      <img
+                        className="access-item-icon"
+                        src="https://www2.arccorp.com/globalassets/products--participation/airportis/airportis-overview-icon-1.png"
+                        alt=""
+                      />
+                    </div>
                   </div>
                   <div className="col-lg-2 mx-auto">
-                    <img
-                      className="access-item-icon"
-                      src="https://www2.arccorp.com/globalassets/products--participation/airportis/airportis-overview-icon-2.png"
-                      alt=""
-                    />
+                    <div className="access-item-icon-outer">
+                      <img
+                        className="access-item-icon"
+                        src="https://www2.arccorp.com/globalassets/products--participation/airportis/airportis-overview-icon-2.png"
+                        alt=""
+                      />
+                    </div>
                   </div>
                   <div className="col-lg-2 mx-auto">
-                    <img
-                      className="access-item-icon"
-                      src="https://www2.arccorp.com/globalassets/products--participation/airportis/airportis-overview-icon-3.png"
-                      alt=""
-                    />
+                    <div className="access-item-icon-outer">
+                      <img
+                        className="access-item-icon"
+                        src="https://www2.arccorp.com/globalassets/products--participation/airportis/airportis-overview-icon-3.png"
+                        alt=""
+                      />
+                    </div>
                   </div>
                   <div className="col-lg-2 mx-auto">
-                    <img
-                      className="access-item-icon"
-                      src="https://www2.arccorp.com/globalassets/products--participation/airportis/airportis-overview-icon-4.png"
-                      alt=""
-                    />
+                    <div className="access-item-icon-outer">
+                      <img
+                        className="access-item-icon"
+                        src="https://www2.arccorp.com/globalassets/products--participation/airportis/airportis-overview-icon-4.png"
+                        alt=""
+                      />
+                    </div>
                   </div>
                   <div className="col-lg-2 my-auto mx-auto">
-                    <img
-                      className="access-item-icon"
-                      src="https://www2.arccorp.com/globalassets/products--participation/airportis/airportis-overview-icon-5.png"
-                      alt=""
-                    />
+                    <div className="access-item-icon-outer">
+                      <img
+                        className="access-item-icon"
+                        src="https://www2.arccorp.com/globalassets/products--participation/airportis/airportis-overview-icon-5.png"
+                        alt=""
+                      />
+                    </div>
                   </div>
                 </div>
                 <div className="row">
@@ -152,22 +163,23 @@ class App extends Component {
                   </div>
                   <div className="col-lg-2 mx-auto">
                     <div className="access-item-header">
-                      Historical passenger data and future schedules
+                      Schedules and capacity information, <br /> updated weekly
                     </div>
                   </div>
                   <div className="col-lg-2 mx-auto">
                     <div className="access-item-header">
-                      Historical passenger data and future schedules
+                      Global monthly passenger traffic flows, including complete
+                      itineraries
                     </div>
                   </div>
                   <div className="col-lg-2 mx-auto">
                     <div className="access-item-header">
-                      Historical passenger data and future schedules
+                      Airline details and <br /> point-of-sale information
                     </div>
                   </div>
                   <div className="col-lg-2 mx-auto">
                     <div className="access-item-header">
-                      Historical passenger data and future schedules
+                      Class-of-service and average industry fares
                     </div>
                   </div>
                 </div>
@@ -187,70 +199,94 @@ class App extends Component {
             <>
               <div className="row">
                 <div className="col-lg-12" style={{ textAlign: "center" }}>
-                  With access to AirportIS data, you will be able to:
+                  <div className="airportis-secondary-pt-header">
+                    With access to AirportIS data, you will be able to:
+                  </div>
                 </div>{" "}
               </div>
               <div className="container">
                 <div className="row">
-                  <div className="col-lg-4">
-                    <div className="inner">
-                      <img
-                        src="https://www2.arccorp.com/globalassets/products--participation/airportis/airportis-works-icon-1.png"
-                        alt=""
-                      />
+                <div className="col-lg-4">
+                    <div className="airportis-outer-icon">
+                      <div className="airportis-inner-icon">
+                        <img
+                          src="https://www2.arccorp.com/globalassets/products--participation/airportis/airportis-works-icon-1.png"
+                          alt=""
+                        />
+                        <div className="airportis-inner-text">Build credible <br/> business cases</div>
+                      </div>
                     </div>
                   </div>
                   <div className="col-lg-4">
-                    <div className="inner">
-                      <img
-                        src="https://www2.arccorp.com/globalassets/products--participation/airportis/airportis-works-icon-2.png"
-                        alt=""
-                      />
+                    <div className="airportis-outer-icon">
+                      <div className="airportis-inner-icon">
+                        <img
+                          src="https://www2.arccorp.com/globalassets/products--participation/airportis/airportis-works-icon-2.png"
+                          alt=""
+                        />
+                        <div className="airportis-inner-text">Evaluate new routes with <br /> key point-of-sale data</div>
+                      </div>
                     </div>
                   </div>
                   <div className="col-lg-4">
-                    <div className="inner">
-                      <img
-                        src="https://www2.arccorp.com/globalassets/products--participation/airportis/airportis-works-icon-3.png"
-                        alt=""
-                      />
+                    <div className="airportis-outer-icon">
+                      <div className="airportis-inner-icon">
+                        <img
+                          src="https://www2.arccorp.com/globalassets/products--participation/airportis/airportis-works-icon-3.png"
+                          alt=""
+                        />
+                        <div className="airportis-inner-text">Validate true market <br /> size dynamics</div>
+                      </div>
                     </div>
                   </div>
                   <div className="col-lg-4">
-                    <div className="inner">
-                      <img
-                        src="https://www2.arccorp.com/globalassets/products--participation/airportis/airportis-works-icon-4.png"
-                        alt=""
-                      />
+                    <div className="airportis-outer-icon">
+                      <div className="airportis-inner-icon">
+                        <img
+                          src="https://www2.arccorp.com/globalassets/products--participation/airportis/airportis-works-icon-4.png"
+                          alt=""
+                        />
+                        <div className="airportis-inner-text">Improve your in-house <br /> demand forecast</div>
+                      </div>
                     </div>
                   </div>
                   <div className="col-lg-4">
-                    <div className="inner">
-                      <img
-                        src="https://www2.arccorp.com/globalassets/products--participation/airportis/airportis-works-icon-5.png"
-                        alt=""
-                      />
+                    <div className="airportis-outer-icon">
+                      <div className="airportis-inner-icon">
+                        <img
+                          src="https://www2.arccorp.com/globalassets/products--participation/airportis/airportis-works-icon-5.png"
+                          alt=""
+                        />
+                        <div className="airportis-inner-text">Understand and target true <br /> high-yeild traffic</div>
+                      </div>
                     </div>
                   </div>
                   <div className="col-lg-4">
-                    <div className="inner">
-                      <img
-                        src="https://www2.arccorp.com/globalassets/products--participation/airportis/airportis-works-icon-6.png"
-                        alt=""
-                      />
+                    <div className="airportis-outer-icon">
+                      <div className="airportis-inner-icon">
+                        <img
+                          src="https://www2.arccorp.com/globalassets/products--participation/airportis/airportis-works-icon-6.png"
+                          alt=""
+                        />
+                        <div className="airportis-inner-text">Benchmark your airport and <br /> determine market share</div>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
             </>
           }
-          className="bg-color-tarmac airportis-bg"
+          className="bg-color-black airportis-bg"
           eyebrow="How It Works"
           id="#"
           subTitleClass=""
-          subtitle=""
-          title="Build Relationships with complete data."
-          titleClass="white"
+          subtitle="AirportIS empowers you with the credibility to build trusted partnerships to grow your  business. Access the industry’s most complete market coverage, including global  indirect travel agency sales, direct airline sales (via the airlines’ own websites, airport  ticket offices and reservation centers), and unique LCC data sources. Data from over  490 airlines is aggregated using advanced algorithms to allow you to analyze market  potential and evaluate the performance of your existing air service."
+          title={
+            <>
+              Build Relationships <br /> with complete data.
+            </>
+          }
+          titleClass="white arc-airportis-header"
         />
         <ProductCallout
           cta="Let's Get Started"
@@ -259,6 +295,7 @@ class App extends Component {
           title={
             <>
               <img
+              style={{paddingBottom:"30px"}}
                 src="https://www2.arccorp.com/globalassets/products--participation/airportis/airportis-arc-logo.png"
                 alt="arc logo"
               />{" "}
