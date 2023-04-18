@@ -242,6 +242,8 @@ class App extends Component {
                         <img
                           src="https://www2.arccorp.com/globalassets/products--participation/airportis/airportis-works-icon-5.png"
                           alt=""
+                          height="135px"
+                          width="135px"
                         />
                         <div className="airportis-inner-text">Understand and target true <br /> high-yield traffic</div>
                       </div>
@@ -266,7 +268,7 @@ class App extends Component {
           eyebrow="How It Works"
           id="how-it-works"
           subTitleClass=""
-          subtitle="AirportIS empowers you with the credibility to build trusted partnerships to grow your  business. Access the industry’s most complete market coverage, including global  indirect travel agency sales, direct airline sales (via the airlines’ own websites, airport  ticket offices and reservation centers), and unique LCC data sources. Data from over  490 airlines is aggregated using advanced algorithms to allow you to analyze market  potential and evaluate the performance of your existing air service."
+          subtitle="Access the industry’s most complete market coverage, including global travel agency sales, direct airline sales (including via the airlines’ own websites, airport ticket offices and reservation centers) and unique LCC data sources. Data from over 490 airlines is aggregated using advanced algorithms to allow you to analyze market potential and evaluate the performance of your existing air service."
           title={
             <>
               Build Relationships <br /> with complete data.
@@ -275,9 +277,9 @@ class App extends Component {
           titleClass="white arc-airportis-header"
         />
         <ProductCallout
-          cta="Let's Get Started"
+          cta="Get Started"
           ctaLink="https://www2.arccorp.com/support-training/product-sales-request?Product=AirportIS"
-          subtitle="Build the very best growth strategies and business cases for your airport."
+          subtitle=""
           title={
             <>
               <img
@@ -285,7 +287,7 @@ class App extends Component {
                 src="https://www2.arccorp.com/globalassets/products--participation/airportis/airportis-arc-logo.png"
                 alt="arc logo"
               />{" "}
-              <br /> Get Started
+              <br />Let’s bring the best airline <br/>service to your community
             </>
           }
         />

@@ -44,10 +44,14 @@
 .airportis-jumbo {
   background-color: black;
   padding-top: 325px;
+  background-size: auto !important;
+  background-position: top center;
 
   .ctaBtn {
     color: #000000 !important;;
   }
+
+
 }
 
 .arc-iata-bar {
