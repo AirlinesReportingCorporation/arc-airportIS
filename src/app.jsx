@@ -82,6 +82,7 @@ class App extends Component {
                   <img
                     src="https://www2.arccorp.com/globalassets/products--participation/airportis/airportis-screenshot.png"
                     alt="airportis-screenshot"
+                    className="airportis-screenshot"
                   />
                 </div>
               </div>
@@ -256,7 +257,7 @@ class App extends Component {
                           src="https://www2.arccorp.com/globalassets/products--participation/airportis/airportis-works-icon-6.png"
                           alt=""
                         />
-                        <div className="airportis-inner-text">Benchmark your airport and <br /> determine market share</div>
+                        <div className="airportis-inner-text">Determine <br/>market potential</div>
                       </div>
                     </div>
                   </div>
