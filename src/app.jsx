@@ -105,7 +105,7 @@ class App extends Component {
                         />
                       </div>
                       <div className="access-item-header">
-                        Historical passenger data and future schedules
+                      Historical passenger data including forward bookings
                       </div>
                     </div>
                   </div>
@@ -133,7 +133,7 @@ class App extends Component {
                         />
                       </div>
                       <div className="access-item-header">
-                      Global monthly passenger traffic flows, including complete itineraries
+                      Global monthly passenger traffic flows including complete Origin & Destination itineraries
 
                       </div>
                     </div>
