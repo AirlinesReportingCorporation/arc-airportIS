@@ -30,7 +30,7 @@ class App extends Component {
             backgroundImage="https://www2.arccorp.com/globalassets/products--participation/airportis/airportis-jumbo.png"
             title={
               <>
-                Air Traffic data <br /> you can rely on.
+                Air traffic data <br /> you can rely on.
               </>
             }
             subtitle={
@@ -272,7 +272,7 @@ class App extends Component {
           subtitle="Access the industry’s most complete market coverage, including global travel agency sales, direct airline sales (including via the airlines’ own websites, airport ticket offices and reservation centers) and unique LCC data sources. Data from over 490 airlines is aggregated using advanced algorithms to allow you to analyze market potential and evaluate the performance of your existing air service."
           title={
             <>
-              Build Relationships <br /> with complete data.
+              Build relationships <br /> with complete data.
             </>
           }
           titleClass="white arc-airportis-header"
