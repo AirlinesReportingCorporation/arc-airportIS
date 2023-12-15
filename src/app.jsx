@@ -22,8 +22,8 @@ class App extends Component {
             { title: "How It Works", url: "#how-it-works" },
             { title: "Resources", url: "#resources" },
           ]}
-          contactUs="Contact Us"
-          rightLink="https://www2.arccorp.com/support-training/product-sales-request?Product=AirportIS"
+          stickyCTA="Contact Us"
+          stickyCTALink="https://www2.arccorp.com/support-training/product-sales-request?Product=AirportIS"
         />
 
         <ProductJumbo
