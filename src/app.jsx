@@ -4,6 +4,7 @@ import {
   ProductJumbo,
   ProductText,
   ProductCallout,
+  ProductLinks,
 } from "arccorp-vars";
 
 class App extends Component {
@@ -19,34 +20,33 @@ class App extends Component {
           links={[
             { title: "Overview", url: "#overview" },
             { title: "How It Works", url: "#how-it-works" },
+            { title: "Resources", url: "#resources" },
           ]}
           contactUs="Contact Us"
           rightLink="https://www2.arccorp.com/support-training/product-sales-request?Product=AirportIS"
         />
 
-          <ProductJumbo
+        <ProductJumbo
           className="airportis-jumbo"
-          
-            backgroundImage="https://www2.arccorp.com/globalassets/products--participation/airportis/airportis-jumbo.png"
-            title={
-              <>
-                Air traffic data <br /> you can rely on.
-              </>
-            }
-            subtitle={
-              <>
-                Grow passenger numbers, increase revenue and expand your market
-                by accessing{" "} 
-                <span>
-                  the most comprehensive and reliable traffic data available on
-                  the market.
-                </span>
-              </>
-            }
-            ctaLink="#overview"
-            width="100%"
-          />
-
+          backgroundImage="https://www2.arccorp.com/globalassets/products--participation/airportis/airportis-jumbo.png"
+          title={
+            <>
+              Air traffic data <br /> you can rely on.
+            </>
+          }
+          subtitle={
+            <>
+              Grow passenger numbers, increase revenue and expand your market by
+              accessing{" "}
+              <span>
+                the most comprehensive and reliable traffic data available on
+                the market.
+              </span>
+            </>
+          }
+          ctaLink="#overview"
+          width="100%"
+        />
 
         <div className="container">
           <div className="arc-iata-bar">
@@ -105,7 +105,7 @@ class App extends Component {
                         />
                       </div>
                       <div className="access-item-header">
-                      Historical passenger data including forward bookings
+                        Historical passenger data including forward bookings
                       </div>
                     </div>
                   </div>
@@ -118,8 +118,11 @@ class App extends Component {
                           alt=""
                         />
                       </div>
-                      <div className="access-item-header" style={{maxWidth: "180px"}}>
-                      Schedules and capacity information, updated weekly
+                      <div
+                        className="access-item-header"
+                        style={{ maxWidth: "180px" }}
+                      >
+                        Schedules and capacity information, updated weekly
                       </div>
                     </div>
                   </div>
@@ -133,8 +136,8 @@ class App extends Component {
                         />
                       </div>
                       <div className="access-item-header">
-                      Global monthly passenger traffic flows including complete Origin & Destination itineraries
-
+                        Global monthly passenger traffic flows including
+                        complete Origin & Destination itineraries
                       </div>
                     </div>
                   </div>
@@ -148,8 +151,7 @@ class App extends Component {
                         />
                       </div>
                       <div className="access-item-header">
-                      Airline details and point-of-sale information
-
+                        Airline details and point-of-sale information
                       </div>
                     </div>
                   </div>
@@ -167,9 +169,7 @@ class App extends Component {
                       </div>
                     </div>
                   </div>
-                
                 </div>
-
               </div>
             </>
           }
@@ -193,14 +193,16 @@ class App extends Component {
               </div>
               <div className="container">
                 <div className="row">
-                <div className="col-lg-4">
+                  <div className="col-lg-4">
                     <div className="airportis-outer-icon">
                       <div className="airportis-inner-icon">
                         <img
                           src="https://www2.arccorp.com/globalassets/products--participation/airportis/airportis-works-icon-1.png"
                           alt=""
                         />
-                        <div className="airportis-inner-text">Build credible <br/> business cases</div>
+                        <div className="airportis-inner-text">
+                          Build credible <br /> business cases
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -211,7 +213,9 @@ class App extends Component {
                           src="https://www2.arccorp.com/globalassets/products--participation/airportis/airportis-works-icon-2.png"
                           alt=""
                         />
-                        <div className="airportis-inner-text">Evaluate new routes with <br /> key point-of-sale data</div>
+                        <div className="airportis-inner-text">
+                          Evaluate new routes with <br /> key point-of-sale data
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -222,7 +226,9 @@ class App extends Component {
                           src="https://www2.arccorp.com/globalassets/products--participation/airportis/airportis-works-icon-3.png"
                           alt=""
                         />
-                        <div className="airportis-inner-text">Validate true market <br /> size dynamics</div>
+                        <div className="airportis-inner-text">
+                          Validate true market <br /> size dynamics
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -233,7 +239,9 @@ class App extends Component {
                           src="https://www2.arccorp.com/globalassets/products--participation/airportis/airportis-works-icon-4.png"
                           alt=""
                         />
-                        <div className="airportis-inner-text">Improve your in-house <br /> demand forecast</div>
+                        <div className="airportis-inner-text">
+                          Improve your in-house <br /> demand forecast
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -246,7 +254,9 @@ class App extends Component {
                           height="135px"
                           width="135px"
                         />
-                        <div className="airportis-inner-text">Understand and target true <br /> high-yield traffic</div>
+                        <div className="airportis-inner-text">
+                          Understand and target true <br /> high-yield traffic
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -257,7 +267,10 @@ class App extends Component {
                           src="https://www2.arccorp.com/globalassets/products--participation/airportis/airportis-works-icon-6.png"
                           alt=""
                         />
-                        <div className="airportis-inner-text">Determine <br/>market potential</div>
+                        <div className="airportis-inner-text">
+                          Determine <br />
+                          market potential
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -277,6 +290,57 @@ class App extends Component {
           }
           titleClass="white arc-airportis-header"
         />
+        <div id="resources" style={{ paddingTop: "60px;" }}>
+          &nbsp;
+        </div>
+        <ProductLinks
+          colClass="col-lg-4"
+          prodLink={[
+            {
+              icon: "https://www2.arccorp.com/globalassets/products--participation/direct-connect/ndc-icon-1.png",
+              alt: "AirportIS Product Sheet",
+              header: (
+                <>
+                  AirportIS <br />
+                  Product Sheet
+                </>
+              ),
+              copy: "",
+              link: "https://www2.arccorp.com/globalassets/datasheets/AirportIS-ProductSheet.pdf",
+              cta: "Download",
+              direction: "down",
+            },
+            {
+              icon: "https://www2.arccorp.com/globalassets/homepage/redesign/ndc/ndc-icon-2.png",
+              alt: "AirportIS User Tutorials",
+              header: (
+                <>
+                  AirportIS <br />
+                  User Tutorials
+                </>
+              ),
+              copy: "",
+              link: "https://www.youtube.com/playlist?list=PLM2XOQXtRLMeMsvM1J2qr7BGyf2DjdoCa",
+              cta: "Start Exploring",
+              direction: "right",
+            },
+            {
+              icon: "https://www2.arccorp.com/globalassets/support-icon-231x170.png",
+              alt: "Contact Us",
+              header: (
+                <>
+                    Contact Us
+                    <br />
+                    <br />
+                  </>
+              ),
+              copy: "",
+              link: "https://www2.arccorp.com/support-training/product-sales-request?Product=AirportIS",
+              cta: "Learn More",
+              direction: "right",
+            },
+          ]}
+        />
         <ProductCallout
           cta="Get Started"
           ctaLink="https://www2.arccorp.com/support-training/product-sales-request?Product=AirportIS"
@@ -284,11 +348,13 @@ class App extends Component {
           title={
             <>
               <img
-              style={{paddingBottom:"30px"}}
+                style={{ paddingBottom: "30px" }}
                 src="https://www2.arccorp.com/globalassets/products--participation/airportis/airportis-arc-logo.png"
                 alt="arc logo"
               />{" "}
-              <br />Let’s bring the best airline <br/>service to your community
+              <br />
+              Let’s bring the best airline <br />
+              service to your community
             </>
           }
         />
